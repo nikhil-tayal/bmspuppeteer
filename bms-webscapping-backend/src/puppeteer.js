@@ -20,4 +20,10 @@ let popularCities = [],
   await browser.close();
 })();
 
-module.exports = { popularCities, otherCities };
+function findEvents(city) {
+  console.log(city);
+  let events = [];
+  return events;
+}
+
+module.exports = { popularCities, otherCities, findEvents };
